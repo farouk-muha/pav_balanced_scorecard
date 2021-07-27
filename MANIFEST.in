@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pav_balanced_scorecard *.css
+recursive-include pav_balanced_scorecard *.csv
+recursive-include pav_balanced_scorecard *.html
+recursive-include pav_balanced_scorecard *.ico
+recursive-include pav_balanced_scorecard *.js
+recursive-include pav_balanced_scorecard *.json
+recursive-include pav_balanced_scorecard *.md
+recursive-include pav_balanced_scorecard *.png
+recursive-include pav_balanced_scorecard *.py
+recursive-include pav_balanced_scorecard *.svg
+recursive-include pav_balanced_scorecard *.txt
+recursive-exclude pav_balanced_scorecard *.pyc
